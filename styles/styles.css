@@ -1,0 +1,89 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	line-height: 2.3em;
+	background-image: url("../images/beige-tiles.png");
+}
+
+.our-content {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	max-width: 600px;
+	margin: auto;
+	line-height: 2.4em;
+	padding-top: 20px;
+}
+
+
+button:hover {
+	background-color: orange;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+
+
+/* navbar class from new birth see site again for details */
+.header_bottom {
+    padding: 0 45px;
+    background-color: #fff;
+    -webkit-transition: all .2s ease 0s;
+    -moz-transition: all .2s ease 0s;
+    -o-transition: all .2s ease 0s;
+    transition: all .2s ease 0s;
+}
+
+/* how to make navbar transparent 
+
+(or try <div class="navbar">
+// your navbar content
+</div> ?) 
+
+
+*/
+.navbar-inner {
+    background:transparent;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+
+
+
+
+
+
+
+

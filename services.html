@@ -6,23 +6,23 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
+   <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+   <div class="navbar">
 
-<div class="navbar">
+   	<div class="navigation">
+   		<ul>
+   			<li><a href="index.html">Home</a></li>
+   			<li><a href="mission.html">Our Mission</a></li>
+   			<li><a href="services.html">Services</a></li>
+   			<li><a href="calendar.html">Calendar of Events</a></li>
+   			<li><a href="testimonies.html">Testimonies</a></li>
+   			<li><a href="contact.html">Contact us or <br> Conference Registration</a></li>
+   			<li><a href="classes.html">School of The Holy <br> Spirit Classes</a></li>
+   			<li><a href="donations.html">Donations</a></li>
 
-	<div class="navigation">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="mission.html">Our Mission</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="calendar.html">Calendar of Events</a></li>
-			<li><a href="testimonies.html">Testimonies</a></li>
-			<li><a href="contact.html">Contact us or <br> Conference Registration</a></li>
-			<li><a href="classes.html">School of The Holy <br> Spirit Classes</a></li>
-			<li><a href="donations.html">Donations</a></li>
-
-		</ul>
-	</div>
-</div>
+   		</ul>
+   	</div>
+   </div>
 
 	<div class="our-content">
 		<p><strong><font size="3">
@@ -64,6 +64,30 @@
          (678) 580-3310</font></p><p><font size="4"></font><br /></p></font></strong><!--"''"-->
       </p>
 	</div>
+   <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+   </script>
+
+
+
+   </body>
+   </html>
+
 
 
 
